@@ -6,15 +6,15 @@ This project focuses on building an **Image Caption Generator** that bridges the
 
 ## Table of Contents
 
-1.  [Understanding the Problem](https://www.google.com/search?q=%23understanding-the-problem)
-2.  [Dataset Information](https://www.google.com/search?q=%23dataset-information)
-3.  [Architecture Design](https://www.google.com/search?q=%23architecture-design)
-4.  [Data Preprocessing Pipeline](https://www.google.com/search?q=%23data-preprocessing-pipeline)
-5.  [Model Training](https://www.google.com/search?q=%23model-training)
-6.  [Evaluation & Results](https://www.google.com/search?q=%23evaluation--results)
-7.  [Inference Techniques](https://www.google.com/search?q=%23inference-techniques)
-8.  [Technologies Used](https://www.google.com/search?q=%23technologies-used)
-9.  [How to Run](https://www.google.com/search?q=%23how-to-run)
+1.  [Understanding the Problem](#understanding-the-problem)
+2.  [Dataset Information](#dataset-information)
+3.  [Architecture Design](#architecture-design)
+4.  [Data Preprocessing Pipeline](#data-preprocessing-pipeline)
+5.  [Model Training](#model-training)
+6.  [Evaluation and Results](#evaluation-and-results)
+7.  [Inference Techniques](#inference-techniques)
+8.  [Technologies Used](#technologies-used)
+9.  [How to Run](#how-to-run)
 
 -----
 
@@ -37,7 +37,7 @@ The model is trained on the **Flickr8k Dataset**, a standard benchmark for sente
   - **Splits**:
       - **Training**: 6,000 images
       - **Validation**: 1,000 images
-      - **Testing**: 1,000 images
+      - **Testing**: ~1,091 images
 
 The raw dataset consists of a folder of `.jpg` images and a text file (`captions.txt`) mapping image filenames to their descriptions.
 
@@ -100,7 +100,7 @@ The model was trained on Google Colab using GPU acceleration.
 
 -----
 
-## Evaluation & Results
+## Evaluation and Results
 
 The model was evaluated on a held-out Test Set of \~1,000 images using the **BLEU Score** (Bilingual Evaluation Understudy) metric.
 
